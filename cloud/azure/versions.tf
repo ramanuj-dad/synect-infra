@@ -14,7 +14,7 @@ terraform {
   cloud {
     organization = "synect-infra"
     workspaces {
-      name = "green-app"
+      name = "azure-green-app"
     }
   }
 }
