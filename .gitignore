@@ -1,0 +1,41 @@
+# ─── Terraform ───────────────────────────────────────
+# Local cache directories
+**/.terraform/**
+
+# State files and lock
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+terraform.tfstate.lock.info
+.terraform.lock.hcl
+.terraform
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash log
+crash.log
+
+# Plan files (requested)
+plan.json
+tfplan.binary
+*.tfplan
+
+# ─── Infracost ───────────────────────────────────────
+# JSON outputs
+infracost.json
+infracost-output.json
+infracost-breakdown.json
+.infracost
+# ─── Command-line logs & outputs ────────────────────
+*.log
+*.out
+.history
+
+# ─── OS & Editor ────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*~
